@@ -1,0 +1,30 @@
+
+
+#textArea .content {
+    -fx-background-image: url(1.jpg);
+    -fx-background-size: 100%;
+}
+
+#buttonSend {
+    -fx-background-color: green;
+    -fx-background-radius: 5;
+}
+
+#buttonSend:hover {
+    -fx-background-color: grey;
+}
+
+
+.text-area {
+    -fx-background-color: #dbb1b1, #fff0f0;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 18;
+    -fx-effect: dropshadow(gaussian,#fff,10,0.8,0,0);
+
+}
+
+.text-area .text {
+    -fx-effect: dropshadow(gaussian,#fff,10,0.8,0,0);
+}
